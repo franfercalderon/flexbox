@@ -127,11 +127,12 @@ Acomodar la sección 3
 */
 
 #section-3 .flex-container {
-  background-color: aqua;
-   flex-direction: column;
-   justify-content: space-evenly;
+   justify-content: space-between;
  }
 
+ #section-3 .flex-container div {
+  width: calc((100% / 2) - 15px);
+}
 /*
 Sección 3
 La imagen de esta sección debe estar posicionada en relación a su contenedor
